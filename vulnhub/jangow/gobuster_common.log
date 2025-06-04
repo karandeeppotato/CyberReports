@@ -1,0 +1,23 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.56.118
+[+] Method:                  GET
+[+] Threads:                 200
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.hta                 (Status: 403) [Size: 279]
+[2K/server-status        (Status: 403) [Size: 279]
+[2K/site                 (Status: 301) [Size: 315] [--> http://192.168.56.118/site/]
+[2K/.htaccess            (Status: 403) [Size: 279]
+[2K/.htpasswd            (Status: 403) [Size: 279]
+
+===============================================================
+Finished
+===============================================================
